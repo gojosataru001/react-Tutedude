@@ -1,14 +1,16 @@
-import Greet from './components/Greet'
-import Welcome from './components/Welcome'
-import Hello from './components/Hello'
-import HelloMessage from './components/HelloMessage'
+// import Greet from './components/Greet'
+// import Welcome from './components/Welcome'
+// import Hello from './components/Hello'
+// import HelloMessage from './components/HelloMessage'
+import Class from './components/Class'
+let a = "rohan"
 
 function App() {
   
 
   return (
     <>
-      <Greet />
+      {/* <Greet />
       <Welcome />
       <Hello />
       <HelloMessage name="Rohan" age="15">
@@ -19,7 +21,10 @@ function App() {
       </HelloMessage>
       <HelloMessage name="Sonu" age="12">
         <p>children component 3</p>
-      </HelloMessage>
+      </HelloMessage> */}
+      <Class  name={a} age="15"/>
+      <Class  name="Ashvin" age="45"/>
+      <Class  name="Virat" age="52"/>
     </>
   )
 }
