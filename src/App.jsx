@@ -3,6 +3,7 @@
 // import Hello from './components/Hello'
 // import HelloMessage from './components/HelloMessage'
 import Class from './components/Class'
+import Student from './components/Student'
 let a = "rohan"
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
       <Class  name={a} age="15"/>
       <Class  name="Ashvin" age="45"/>
       <Class  name="Virat" age="52"/>
+      <Student name="Ajay"/>
     </>
   )
 }
