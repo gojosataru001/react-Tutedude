@@ -11,7 +11,7 @@ function App() {
   
 
   return (
-    <div className='bg-blue-600 text-white'>
+    <div>
       <Greet />
       <Welcome />
       <Hello />
@@ -30,7 +30,7 @@ function App() {
       <Student name="Ajay"/>
 
       
-      <Employee />
+      <Employee name="Virat"/>
     </div>
   )
 }
