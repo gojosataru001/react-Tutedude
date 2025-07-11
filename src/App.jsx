@@ -6,7 +6,9 @@ import Class from './components/Class'
 import Student from './components/Student'
 import Employee from './components/Employee'
 import Customer from './components/Customer'
-
+import Click from './components/Click'
+import EventBind from './components/EventBind'
+import ParentComponent from './components/ParentComponent'
 
 function App() {
   
@@ -30,6 +32,10 @@ function App() {
       <Student name="Ajay"/>
       <Employee name="Virat"/> */}
       {/* <Customer name="Ravi" age="25"/> */}
+
+        {/* <Click name='Ajay'/> */}
+        {/* <EventBind/> */}
+        <ParentComponent />
 
 
 
