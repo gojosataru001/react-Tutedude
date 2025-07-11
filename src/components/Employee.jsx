@@ -15,7 +15,7 @@ class Employee extends React.Component{
         return(
             <div>
                 <h1>{this.state.name}</h1>
-                <button onClick={() => this.changeName()}>Click</button>
+                <button onClick={() => this.changeName( )}>Click</button>
             </div>
         )
     }
