@@ -9,8 +9,12 @@ import Customer from './components/Customer'
 import Click from './components/Click'
 import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
+import Component2 from './components/Component2'
+import Component1 from './components/Component1'
 
 function App() {
+  const name = "Rohan";
+  const age = 3;
   
 
   return (
@@ -35,11 +39,20 @@ function App() {
 
         {/* <Click name='Ajay'/> */}
         {/* <EventBind/> */}
-        <ParentComponent />
+        {/* <ParentComponent /> */}
 
 
+ {/* this code will not work on jsx file
+        const name = "Rohan";
+        if(name =='Rohan'){
+          return <Component1/>
+        } else {
+          return <Component2/>
+        } */}
 
-      
+
+        {name =="Rohan" && <h1>H1 Rohan</h1>}
+       {age >=18 ? <h1>You are eligible to vote</h1> : <h1>You are not eligible to vote</h1>}
     </div>
   )
 }
