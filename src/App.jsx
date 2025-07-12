@@ -11,10 +11,12 @@ import EventBind from './components/EventBind'
 import ParentComponent from './components/ParentComponent'
 import Component2 from './components/Component2'
 import Component1 from './components/Component1'
+import Students from './components/Students'
+
 
 function App() {
-  const name = "Rohan";
-  const age = 3;
+  // const name = "Rohan";
+  // const age = 3;
   
 
   return (
@@ -50,9 +52,11 @@ function App() {
           return <Component2/>
         } */}
 
-
+{/* 
         {name =="Rohan" && <h1>H1 Rohan</h1>}
-       {age >=18 ? <h1>You are eligible to vote</h1> : <h1>You are not eligible to vote</h1>}
+       {age >=18 ? <h1>You are eligible to vote</h1> : <h1>You are not eligible to vote</h1>} */}
+
+  <Students/>
     </div>
   )
 }
